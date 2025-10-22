@@ -3,7 +3,7 @@
 @RequestMapping("/employee")
 class restcontroller{
 
-    @GetMapping("/details/bhargav")
+    @GetMapping("/details/seshadri")
     String getEmployeeDetails(){
         return "Employee Details";
     }
